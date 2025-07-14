@@ -33,7 +33,7 @@ const shuffle = (accent = 0) => [
 
 const ThreeDShapes = () => {
   return (
-    <div className="relative h-screen" style={{ filter: "blur(100px)" }}>
+    <div className="relative h-screen w-screen" style={{ filter: "blur(100px)" }}>
       <div className="fiber-container">
         <Scene />
       </div>
